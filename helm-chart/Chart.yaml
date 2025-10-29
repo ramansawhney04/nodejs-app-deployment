@@ -1,0 +1,4 @@
+apiVersion: v2
+name: nodejs-app
+description: A Helm chart for Node.js app on EKS
+version: 0.1.0
