@@ -1,0 +1,7 @@
+replicaCount: 2
+image:
+  repository: <your-dockerhub-username>/nodejs-app
+  tag: "latest"
+service:
+  type: LoadBalancer
+  port: 80
